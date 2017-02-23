@@ -1,0 +1,27 @@
+buildscript {
+  dependencies {
+    classpath 'com.jakewharton:butterknife-gradle-plugin:8.2.0'
+  }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+  compileSdkVersion rootProject.ext.compileSdkVersion
+  buildToolsVersion rootProject.ext.buildToolsVersion
+
+  defaultConfig {
+    minSdkVersion rootProject.ext.minSdkVersion
+  }
+}
+
+dependencies {
+  compile deps.butterknife
+  apt deps.butterknifeCompiler
+
+  testCompile deps.junit
+  testCompile deps.truth
+  testCompile deps.robolectric
+}
