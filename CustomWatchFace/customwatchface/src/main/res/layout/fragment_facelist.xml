@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#E9E9E9">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_facelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/recycleview_padding_vertical"
+        android:paddingLeft="@dimen/recycleview_padding_horizon"
+        android:paddingRight="@dimen/recycleview_padding_horizon"
+
+    />
+
+
+</LinearLayout>

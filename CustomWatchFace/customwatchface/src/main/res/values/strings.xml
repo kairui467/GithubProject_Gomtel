@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CustomWatchFace</string>
+    <string name="frg_innerface">Inner Face</string>
+    <string name="frg_myface">My Face</string>
+    <string name="toast_query_connect_watch">please connect the watch</string>
+    <string name="toast_query_open_phone_sync">please open the phone sync</string>
+    <string name="toast_has_sent">has sent</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_rename">Rename</string>
+
+    <string name="option_rename">Rename</string>
+    <string name="option_edit">Edit</string>
+    <string name="option_delete">Delete</string>
+    <string name="option_share">Share</string>
+    <string name="option_release">Release</string>
+
+
+    <string name="detail_face_fuction">Fuction</string>
+    <string name="frg_backgroud">Background</string>
+    <string name="frg_scale">Scale</string>
+    <string name="frg_pointer">Pointer</string>
+    <string name="option_newwatch">new WatchFace</string>
+    <string name="option_save">Save</string>
+
+
+    <string name="toast_watchface_saved">watchFace saved</string>
+    <string name="toast_watchface_created">watchFace created</string>
+    <string name="dialog_save_watchface">Save watchFaceBean?</string>
+
+
+    <string name="dialog_share_cancel">Cancel</string>
+
+    <string name="dialog_share">Share</string>
+
+    <string name="weibo">Weibo</string>
+    <string name="weixin">Weixin</string>
+    <string name="weixin_friend">Friend</string>
+
+</resources>

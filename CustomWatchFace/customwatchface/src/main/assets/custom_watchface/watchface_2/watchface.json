@@ -1,0 +1,12 @@
+{
+  "name": "watchface_2",
+  "background": "appwidget_clock_background",
+  "dialScale": "appwidget_clock_dialscale",
+  "hour": "appwidget_clock_hour",
+  "minute": "appwidget_clock_minute",
+  "second": "appwidget_clock_second",
+  "isAmPm": false,
+  "haveTemperature": false,
+  "showDate": false,
+  "showWeek": false
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="109dp"
+                android:layout_height="190dp"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+    <com.igeak.customwatchface.view.view.watchfaceview.WatchPreviewView
+        android:id="@+id/watch_preview"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="#F2F2F2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginRight="9dp"
+    />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/watch_preview">
+        <TextView
+            android:id="@+id/tv_watchname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="9dp"
+            android:textColor="#7A7A7A"
+            android:textSize="12dp"/>
+
+        <ImageButton
+            android:id="@+id/ib_createface"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/icon_add"
+            />
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7dp"
+        android:id="@+id/ib_release_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_release_red"
+    />
+</RelativeLayout>

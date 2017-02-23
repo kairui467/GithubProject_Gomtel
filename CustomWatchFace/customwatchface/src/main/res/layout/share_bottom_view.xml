@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:minHeight="320dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_share"
+        android:textSize="12dp"
+        android:textColor="@color/dialog_share_title_text"
+        android:layout_marginTop="26dp"
+        android:includeFontPadding="false"
+        android:gravity="center"
+    />
+
+    <GridView
+        android:id="@+id/gvShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:columnWidth="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:horizontalSpacing="0dp"
+        android:listSelector="@drawable/selector_list_view"
+        android:numColumns="auto_fit"
+
+        android:verticalSpacing="10dp">
+    </GridView>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:background="@color/dialog_share_cancel_background"
+        android:text="@string/dialog_share_cancel"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

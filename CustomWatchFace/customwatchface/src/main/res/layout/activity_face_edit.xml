@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.FaceEditActivity">
+
+    <include layout="@layout/toolbar"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/listDivider"
+    />
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/watch_view_pr"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/edit_bg"
+            app:layout_heightPercent="48%">
+
+            <com.igeak.customwatchface.view.view.watchfaceview.WatchPreviewView
+
+                android:id="@+id/watch_view"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="57.5%"
+                app:layout_marginLeftPercent="26.566667%"
+                app:layout_marginTopPercent="20.9%"
+                app:layout_widthPercent="45.6%"/>
+
+
+        </android.support.percent.PercentRelativeLayout>
+
+
+        <com.igeak.customwatchface.view.view.slide.SlidingTabLayout
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/watch_view_pr"
+            app:layout_heightPercent="6.65529%"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/sliding_tabs"
+            app:layout_heightPercent="41.1428571%"/>
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+</LinearLayout>

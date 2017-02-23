@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">表盘制作</string>
+    <string name="frg_innerface">内置表盘</string>
+    <string name="frg_myface">我的表盘</string>
+    <string name="frg_backgroud">背景</string>
+    <string name="frg_scale">刻度</string>
+    <string name="frg_pointer">指针</string>
+
+    <string name="toast_query_connect_watch">请连接手表！</string>
+    <string name="toast_query_open_phone_sync">请打开手表助手！</string>
+    <string name="toast_has_sent">已经发送</string>
+    <string name="toast_watchface_saved">表盘已保存</string>
+    <string name="toast_watchface_created">表盘已建好</string>
+
+    <string name="dialog_yes">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_rename">重命名</string>
+
+    <string name="dialog_save_watchface">保存表盘?</string>
+    <string name="dialog_share_cancel">取消</string>
+
+    <string name="option_rename">重命名</string>
+    <string name="option_edit">编辑</string>
+    <string name="option_delete">删除</string>
+    <string name="option_share">分享</string>
+    <string name="option_release">发布</string>
+
+    <string name="option_newwatch">新表盘</string>
+    <string name="option_save">保存</string>
+
+    <string name="detail_face_fuction">表盘功能</string>
+
+    <string name="dialog_share">分享到</string>
+    <string name="weibo">Weibo</string>
+    <string name="weixin">Weixin</string>
+    <string name="weixin_friend">Friend</string>
+
+
+
+</resources>

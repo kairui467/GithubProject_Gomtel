@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="toolbar_background">#DCDCDC</color>
+
+    <color name="slide_indicator">#FFFF4444</color>
+    <color name="item_background_select">#ffffffff</color>
+    <color name="item_background">#1FFFFFFF</color>
+
+    <color name="dialog_share_cancel_background">#FFFF4444</color>
+    <color name="dialog_share_title_text">#CCCCCC</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grep_dark">#DFDFDF</color>
+    <color name="share_item_click_color">#786bcac8</color>
+</resources>
