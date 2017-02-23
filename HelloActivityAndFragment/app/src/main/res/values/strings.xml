@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">HelloActivityAndFragment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Sample Names-->
+    <string name="basic_activity_lifecycle">Basic Activity and Lifecycle</string>
+    <string name="start_activity_for_result_demo">Start Activity For Result</string>
+    <string name="launch_mode_demo">Launch Mode Demo</string>
+    <string name="basic_fragment_lifecycle">Basic Fragment and Lifecycle</string>
+    <string name="nested_fragments_in_layout">Nested Fragment In Layout</string>
+    <string name="nested_fragments_in_dynamic_container">Nested Fragment In Dynamic Container</string>
+    <string name="nested_fragments">Nested Fragments</string>
+    <string name="fragment_with_parameters">Fragment With Parameters</string>
+    <string name="fragment_replacement">Fragment Replacement</string>
+    <string name="fragment_start_activity_for_result_demo">Fragment Start Activity For Result</string>
+    <string name="state_restore_demo">State Restore Demo</string>
+    <string name="toolbar_demo">Toolbar Demo</string>
+
+
+    <!--Basic Activity And Lifecycle-->
+    <string name="basic_activity_a">Activity A</string>
+    <string name="basic_activity_b">Activity B</string>
+    <string name="basic_turn_to_activity_b">Turn to Activity B</string>
+    <string name="basic_turn_to_activity_a">Turn to Activity A</string>
+    <string name="basic_finish_button">Finish This Activity</string>
+
+    <!--Start Activity For Result-->
+    <string name="start_activity_for_result">Start Activity For Result</string>
+    <string name="start_activity_for_result_activity_1">Activity 1</string>
+    <string name="start_activity_for_result_activity_2">Activity 2</string>
+    <string name="start_activity_for_result_set_ok">Set OK</string>
+    <string name="start_activity_for_result_set_cancel">Set Cancel</string>
+
+    <!--Launch Mode-->
+    <string name="launch_mode_standard">Standard</string>
+    <string name="launch_mode_single_top">Single Top</string>
+    <string name="launch_mode_single_task">Single Task</string>
+    <string name="launch_mode_single_instance">Single Instance</string>
+    <string name="launch_mode_start_standard">Start Standard</string>
+    <string name="launch_mode_start_single_top">Start Single Top</string>
+    <string name="launch_mode_start_single_task">Start Single Task</string>
+    <string name="launch_mode_start_single_instance">Start Single Instance</string>
+    <string name="launch_mode_stack_info">Update Stack Info</string>
+
+    <!--Basic Fragment-->
+    <string name="fragment_basic_activity_text">Fragment Basic Activity</string>
+    <string name="fragment_a_text">Fragment A</string>
+    <string name="fragment_b_text">Fragment B</string>
+    <string name="fragment_c_text">Fragment C</string>
+    <string name="fragment_d_text">Fragment D</string>
+    <string name="fragment_e_text">Fragment E</string>
+    <string name="fragment_f_text">Fragment F</string>
+    <string name="fragment_g_text">Fragment G</string>
+    <string name="fragment_h_text">Fragment H</string>
+    <string name="fragment_add_b_fragment">Click to ADD Fragment B</string>
+    <string name="fragment_remove_b_fragment">Click to Remove Fragment B</string>
+    <string name="title_activity_single_task">SingleTaskActivity</string>
+    <string name="title_activity_single_instance">SingleInstanceActivity</string>
+
+    <!--Fragment with Parameters-->
+    <string name="submit_button">Submit</string>
+
+    <!--Fragment start Activity For Result-->
+    <string name="fragment_start_activity_for_result">Fragment startActivityForResult()</string>
+    <string name="child_fragment_start_activity_for_result">Child Fragment startActivityForResult()</string>
+    <string name="add_fragment">add Fragment</string>
+    <string name="add_child_fragment">add Child Fragment</string>
+
+    <!--Nested Fragments-->
+    <string name="button_add_first_fragment_group">Add Fragment E (contains A)</string>
+    <string name="button_add_first_fragment_group_f">Add Fragment F (contains A)</string>
+    <string name="button_add_second_fragment">Add Fragment D</string>
+    <string name="button_add_child_container">Add Container</string>
+    <string name="button_add_child_fragment">Add Child Fragment</string>
+
+    <!--State Restore demo-->
+    <string name="state_demo_open_another_activity">Open Another Activity</string>
+    <string name="state_demo_add_detail_fragment">Add Detail Fragment</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="fragment_tab_1">Tab 1 Fragment</string>
+    <string name="fragment_tab_2">Tab 2 Fragment</string>
+    <string name="fragment_detail">Detail Fragment</string>
+
+    <!--Toolbar Demo-->
+    <string name="action_account">Action Account</string>
+    <string name="action_android">Action Android</string>
+    <string name="action_favourite">Action Favourite</string>
+    <string name="button_show_fragment">Show Fragment</string>
+    <string name="button_show_child_fragment">Show Child Fragment</string>
+    <string name="button_update_title">Update Title</string>
+    <string name="fragment_parent">Parent Fragment</string>
+    <string name="fragment_child">Child Fragment</string>
+</resources>

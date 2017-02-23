@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/water_melon_red"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/fragment_tab_2"
+        android:textSize="@dimen/text_size_normal" />
+
+    <EditText
+        android:id="@+id/tab2_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <CheckBox
+        android:id="@+id/tab2_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <WebView
+        android:id="@+id/tab2_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

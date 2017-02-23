@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ddmeng.helloactivityandfragment">
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BasicActivityA" />
+        <activity android:name=".activity.BasicActivityB" />
+        <activity android:name=".fragment.NestedFragmentsDemoActivity" />
+        <activity android:name=".fragment.NestedFragmentsInLayoutActivity" />
+        <activity android:name=".fragment.NestedFragmentsInDynamicContainerActivity" />
+        <activity android:name=".fragment.FragmentWithParametersActivity" />
+        <activity android:name=".fragment.FragmentReplacementActivity" />
+        <activity
+            android:name=".launchmode.StandardActivity"
+            android:launchMode="standard" />
+        <activity
+            android:name=".launchmode.SingleTopActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".fragment.FragmentBasicActivity" />
+        <activity
+            android:name=".launchmode.SingleTaskActivity"
+            android:label="@string/title_activity_single_task"
+            android:launchMode="singleTask"
+            android:taskAffinity=".singleTask" />
+        <activity
+            android:name=".launchmode.SingleInstanceActivity"
+            android:label="@string/title_activity_single_instance"
+            android:launchMode="singleInstance" />
+        <activity android:name=".activity.StartForResultActivityOne" />
+        <activity android:name=".activity.StartForResultActivityTwo" />
+        <activity android:name=".fragment.FragmentStartActivityForResult" />
+        <activity android:name=".state.StateRestoreDemoActivity" />
+        <activity
+            android:name=".toolbar.ToolbarDemoActivity"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>

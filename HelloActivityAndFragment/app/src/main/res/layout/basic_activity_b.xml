@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/basic_activity_b"
+        android:textSize="@dimen/text_size_normal" />
+
+
+    <Button
+        android:id="@+id/basic_turn_to_a_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/apple_green"
+        android:text="@string/basic_turn_to_activity_a" />
+
+    <Button
+        android:id="@+id/basic_finish_b_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/water_melon_red"
+        android:text="@string/basic_finish_button" />
+</LinearLayout>

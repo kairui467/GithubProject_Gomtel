@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Blue colors-->
+    <color name="light_blue">#BBDEFB</color>
+    <color name="middle_blue">#3F51B5</color>
+    <color name="dark_blue">#1A237E</color>
+
+    <!---Red colors-->
+    <color name="water_melon_red">#F44336</color>
+
+
+    <!--Green colors-->
+    <color name="apple_green">#69F0AE</color>
+
+    <!--White and Black-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>
