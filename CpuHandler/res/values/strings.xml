@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trickle Cpu Handler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="info">Cpu Info!</string>
+    <string name="DeviceStatus">Device Status</string>
+    <string name="BatteryStatus">Battery Status</string>
+    <string name="setCpuButton">Set Cpu Freq</string>
+    <string name="setcpu">Cpu Frequency Control</string>
+    <string name="setgpu">Gpu Frequency Control</string>
+    <string name="setmaxfreqscreenoff">Max Screen Off: </string>
+    <string name="setioschedule">I/O Scheduler Control</string>
+    <string name="setcpugovernor">Cpu Governor Control</string>
+    <string name="setgpugovernor">Gpu Governor Control</string>
+    <string name="spinnerPrompt">Governors</string>
+    <string name="currentGovernorDesc">Current Governor:</string>
+    <string name="currentGpuGovernorDesc">Current Gpu Governor:</string>
+    <string name="currentIOScheduleDesc">Current I/O Schedule:</string>
+    <string name="readbuffersizeDesc">Read Ahead Buffer Size:</string>
+    <string name="voltagesTitle">Handle Cpu Voltages</string>
+    <string name="setonboottext">Set On Boot</string>
+    <string name="gridTitle">Trickle Cpu Services</string>
+    <string name="cpuFreqDescription">Try to lock min &amp; max cpu frequencies. Choosing set on boot, 
+        min &amp; max frequencies will apply auto when device reboot. Also try to create cpu profiles
+        with your favorite frequencies.</string>
+    <string name="gpuFreqDescription">Try to change Gpu frequency.</string>
+    <string name="govDescription">Choose your favorite governor. Try to find best governor for
+        cpu and let it to jump between min &amp; max frequencies. Use set on boot in order to reboot with
+        your favorite governor.</string>
+    <string name="gpuGovDescription">Choose your favorite governor. Try to find best governor for
+        Gpu. If governor didn\'t change then doesn\'t supported!</string>
+    <string name="ioDescription">Choose an I/O scheduler. They have many purposes depending 
+            on the goal of the I/O scheduler. Try to minimize time wasted by hard disk seeks,
+            to give a share of the disk bandwidth to each running process and more.</string>
+    <string name="bufferSizeDescription">The bigger the read-ahead buffer is, the better the SD card
+            can predict what command would come next. This gives you better performance, and a potential
+            increase of battery life.</string>
+    <string name="voltsDescription">Choose the voltage for every available frequency. Set on boot option doesn\'t
+        available for safety reasons.</string>
+    <string name="fastChargeDescription">Enabling this feature will disable access to phone storage, it is going to charge
+         faster when phone is pluged in to usb.</string>
+    <string name="miscTools">Miscellaneous Tools</string>
+    <string name="powerSavingsDescription">This feature group tasks into the least cores possible. Also 
+        increase battery life. Set 0 for disable to 2 for the most aggressive.</string>
+    <string name="mpDecisionDescription">This feature is for Qualcomm cpu. When enabled, cpu/gpu frequency
+        modification is not guaranteed and might override frequency settings. Mpdecision is a proprietary code
+         and doesn\'t recommended.</string>
+    <string name="intelliPlugDescription">Intelliplug is a hotplug replacement for qualcomms mp-decision. It\'s recommended!!</string>
+    <string name="sweep2WakeDescription">Select between off, sweep2wake+sweep2sleep and sweep2sleep.</string>
+    <string name="doubleTap2WakeDescription">DT2W allows you to wake the device by double tapping on the screen.</string>
+    <string name="sweep2dimDescription">Sweep2Dim: sweep in the bottom of the screen.</string>
+    <string name="donateDescription">Welcome to Trickle Cpu Handler\n Don\'t forget to rate it and state your kind reviews
+         so as to give me a chance to improve it for you. Also if you like it you know what you have to do!!!</string>
+    <string name="licenses">Copyright © 2014 Lefteris Delimitrou\n\n
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.\n\n
+    
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.\n\n
+    
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <a href="http://www.gnu.org/licenses">http://www.gnu.org/licenses</a>.\n\n
+Contact Email: eldelielev@gmail.com</string>
+    <string name="errorMessage">This App requires ROOT PERMISSIONS to work.\n\nThis device does not have proper ROOT access!</string>
+
+</resources>

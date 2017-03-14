@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#504A4B" >
+
+    <!-- Screen Design for control cpu tab -->
+
+    <LinearLayout
+        android:id="@+id/voltagesContent"
+        style="@style/Content"
+        android:orientation="vertical" >
+
+        <com.startapp.android.publish.banner.banner3d.Banner3D
+                android:id="@+id/startApp3DBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/titles"
+                android:text="@string/voltagesTitle" />
+        </LinearLayout>
+        
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/govDescription"
+                    style="@style/itemdescription"
+                    android:text="@string/voltsDescription" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/upVolts"
+                    style="@style/setTriangleUpButton"
+                    android:text="UP" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/downVolts"
+                    style="@style/setTriangleUpButton"
+                    android:text="DOWN" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/voltagesEdit"
+            style="@style/Content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

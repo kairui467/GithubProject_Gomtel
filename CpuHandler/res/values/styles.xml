@@ -1,0 +1,169 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="Content" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">#504A4B</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="GeneralInfo" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">sans</item>        
+        <item name="android:textSize">15dp</item>
+    </style>
+    
+    <style name="SeparateLine" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">#EDDA74</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    
+    <style name="SeparateSubLine" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_weight">0.6</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">#BCC6CC</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    
+    <style name="titles" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#BCC6CC</item>
+        <item name="android:gravity">center</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>        
+        <item name="android:textSize">25dp</item>
+    </style>
+    
+    <style name="itemdescription" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#BCC6CC</item>
+        <item name="android:gravity">left</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">italic</item>        
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    
+    <style name="CpuStats" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#56A5EC</item>
+        <item name="android:typeface">sans</item>        
+        <item name="android:textSize">15dp</item>
+    </style>
+    
+    <!-- SeekBar Styling -->
+    <style name="cpuFreqBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/cpufreqprogressbar</item>
+        <item name="android:thumb">@drawable/thumb</item>
+        <item name="android:focusable">true</item>
+    </style>
+    
+    <!-- Text Title -->
+    
+    <style name="subText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#56A5EC</item>
+        <item name="android:typeface">sans</item>        
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="minTitleText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#56A5EC</item>
+        <item name="android:typeface">sans</item>        
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="setCpuButton">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/button1</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textColor">#504A4B</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="gridButton">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/gridbutton</item>
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:textColor">#FFD700</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="setTriangleUpButton">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/button1</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">#504A4B</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="dynamicTexts">
+        <item name="android:textColor">#EDDA74</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="checkboxesonboot">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#56A5EC</item>
+        <item name="android:typeface">sans</item>        
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:button">@drawable/checkbox1</item>
+    </style>
+    
+    <style name="togglebutton" parent="android:Widget">
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#EDDA74</item>
+    </style>
+   
+</resources>
