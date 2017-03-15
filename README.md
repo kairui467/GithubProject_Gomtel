@@ -1,2 +1,2 @@
 # GithubProject_Gomtel
-国通的Github项目
+Github项目
