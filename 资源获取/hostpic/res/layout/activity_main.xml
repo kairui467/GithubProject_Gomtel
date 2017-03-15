@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/install"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取已安装的res图片" />
+    
+    <Button
+        android:id="@+id/install_asset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取已安装的asset图片" />
+    
+    <Button
+        android:id="@+id/uninstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取没有安装apk的res图片" />
+    
+     <Button
+        android:id="@+id/unstall_asset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取没有安装apk的asset图片" />
+    
+    <Button
+        android:id="@+id/uninstall_showHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="运行没有安装apk的showHello方法" />
+    
+    
+    
+     <Button
+        android:id="@+id/uninstall_showAddResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="运行没有安装apk的showAddResult方法" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>
