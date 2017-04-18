@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:id="@+id/column_data"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:minHeight="@dimen/com_awesomedroidapps_inappstoragereader_shared_preference_item_min_height"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        style="@style/ComAwesomeDroidAppsDataItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <View
+        android:layout_height="@dimen/com_awesomedroidapps_inappstoragereader_divider_height"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/com_awesomedroidapps_inappstoragereader_dividerColor" />
+    <View
+        android:layout_width="@dimen/com_awesomedroidapps_inappstoragereader_divider_height"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/com_awesomedroidapps_inappstoragereader_dividerColor" />
+
+</RelativeLayout>
+
